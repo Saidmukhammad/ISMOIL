@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ac-b';
+    src: url(fonts/adineueprocyr_boldweb.ttf);
+}
+
+@font-face {
+    font-family: 'ac-l';
+    src: url(fonts/adineueprocyr_lightweb.ttf);
+}
+
+* {
+    font-family: 'ac-l';
+}
+
+.mycontainer {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.three-day {
+    background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 14%, rgba(0, 0, 0, 0.990546218487395) 96%, rgba(137, 35, 35, 0.990546218487395) 100%)
+}
+
+
+
+    
+.gallery-works img {
+    @media (max-width:768px) {
+        width: 153px;
+    }
+}
